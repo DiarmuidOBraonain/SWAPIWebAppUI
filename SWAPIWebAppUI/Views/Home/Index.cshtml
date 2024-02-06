@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="text-center">
+    <h1 class="welcome-message">Star Wars Characters Web Application</h1>
+    <button id="getCharactersBtn" class="btn btn-primary">Show Star Wars Characters!</button>
+    <div id="starWarsCharactersContainer" class="mt-3"></div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#getCharactersBtn").click(function () {
+            $.ajax({
+                type: "POST",
+                url: "/Home/GetStarWarsCharacters",
+                success: function (result) {
+                    $("#starWarsCharactersContainer").html(result);
+                },
+                error: function (error) {
+                    console.error(error);
+                }
+            });
+        });
+    });
+</script>
