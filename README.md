@@ -48,12 +48,15 @@ You will be presented with a header message and a button.
 
 When you click the button, views featuring information about characters from star wars will be displayed!
 
+If your browser blocks access to the web page due to the the "certificate invalid" error, you will need to update the file /SWAPIWebAppUI/localhost.crt with a new certificate and re-run the application
+
 ## Future Developments
 - Allow searching for specific characters
 - Only show a list of the characters
 - Display the detailed information about a selected character from the aforementioned list ONLY when clicked.
 - Display the films, starships, planets, species, and vehicles from star wars referenced in character information
 - Extensive Unit testing
+- Streamlined SSL certificate authentication
 
 
 ## Technologies Used
