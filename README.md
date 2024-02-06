@@ -11,9 +11,12 @@ SWAPIWebAppUI is a web application that provides a user interface for interactin
 ## Installation
 To run the application locally, follow these steps:
 
-1. Clone the repository:
+1. Run a Git Bash or powershell session (Windows) or a terminal window (MacOS)
+
+2. Clone the repository to your desired pathway:
 
 ```console
+cd <your_parent_folder>
 git clone https://github.com/DiarmuidOBraonain/SWAPIWebAppUI.git
 ```
 
@@ -33,6 +36,7 @@ dotnet run
 
 4. Access the application in your web browser at [https://localhost:"localhostnumber"](https://localhost:"localhostnumber").
 
+##User Manual
 
 You will be presented with a header message and a button.
 
