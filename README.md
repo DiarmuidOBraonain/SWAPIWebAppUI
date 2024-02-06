@@ -8,7 +8,7 @@ SWAPIWebAppUI is a web application that provides a user interface for interactin
 - Access details for each entity, including properties and related entities.
 - Responsive design for optimal viewing on different devices.
 
-##Prerequisites
+## Prerequisites
 - Git tools must be installed on your device
 - You must have .NET 7 (or newer) installed
 - Internet connection
